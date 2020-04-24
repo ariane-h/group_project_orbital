@@ -4,7 +4,6 @@
 
 Interactive browser application that displays information about Space in a fun and interesting way.
 
-
 ## Features
 
 The app allows the user to:
