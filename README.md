@@ -17,6 +17,8 @@ The app allows the user to:
 * Display a list of Planets and select one
 * Calculate their own age and weight on the selected planet
 
+## Workflow
+The team used VS Code Liveshare with pair/quad-programming to work on this project. Commits were made by multiple group members through a shared terminal.
 
 # UX
 
