@@ -221,8 +221,7 @@ export default {
      flex-flow: flex-direction;
      align-content: flex-start;
      flex-wrap: wrap;
-     height: 500px;
-     margin-top: 1px;
+     margin-top: 40px;
      padding-top: 1px;
      padding-left: 70px;
      padding-right: 70px;

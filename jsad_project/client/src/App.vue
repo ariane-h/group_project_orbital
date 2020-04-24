@@ -6,8 +6,12 @@
     <iss-tracker v-if="selectedActivity === 'iss-tracker'"/>
     <planets-grid v-if="selectedActivity === 'planets'" :planets='planets'/>
     <planet-detail v-if="selectedPlanet && selectedActivity === 'planets'" :planet='selectedPlanet'/>
-    <planet-info v-if="selectedPlanet && selectedActivity === 'planets'" :selectedPlanet='selectedPlanet'/>
-    <fav-planets v-if="favPlanets.length > 0 && selectedActivity === 'planets'" :favPlanet='favPlanets'/>
+    
+    <div class="planet-info-and-favs">
+      <planet-info v-if="selectedPlanet && selectedActivity === 'planets'" :selectedPlanet='selectedPlanet'/>
+      <fav-planets v-if="favPlanets.length > 0 && selectedActivity === 'planets'" :favPlanet='favPlanets'/>
+    </div>
+
     <rovers-grid v-if="selectedActivity === 'rovers'"/>
     <space-peeps v-if="selectedActivity === 'space-peeps'"/>
     <pic-of-the-day v-if="selectedActivity === 'pic-of-the-day'"/>

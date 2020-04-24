@@ -28,7 +28,7 @@
                 <input class="calculator-input" v-model.number="age" placeholder="Your age on Earth" type="number"  required>            
                 
     </div>
-    <!-- <planet-infectedPlanet='selectedPlanet'></planet-info> -->
+    
   </div>
 </template>
 

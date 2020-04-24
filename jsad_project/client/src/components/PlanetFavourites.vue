@@ -34,7 +34,7 @@ export default {
   flex-direction: column;
   border-radius: 12px;
   color: #130b5b;
-  margin-top: 100px;
+  margin-top: 40px;
   padding: 1%;
   margin-left: 7%;
   margin-right: 7%;
